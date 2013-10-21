@@ -103,7 +103,7 @@ spel.show = {
                 $("#q" + currentQuestionNumber).css("background-image", "url(image/unlock.png)"); // NEXT QUESTION UNLOCK IMAGE 
             }, 1000);
             clickgame = clickgame + 1;
-            if (clickgame === 5) {
+            if (clickgame === 15) {
                 setTimeout(function () {
                     $(result).text(points);
                     $("#mainContainer").fadeOut(500);
