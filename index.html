@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="play.css"/>
+    <meta charset="utf-8"/>
+    <title>ANGRY QUIZ</title>
+</head>
+<body>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <div id ="quizbody">
+        <div class="playBox" id="playStart">
+            <div class="Start">
+                <a id="click1">PLAY ANGRY QUIZ</a>
+            </div> 
+            <audio id="firstpagesound">
+                <source src="sound/startsound.mp3"></source>
+            </audio>
+            <audio id="pagehover">
+                <source src="sound/hover.mp3"></source>
+            </audio>
+
+            <audio id="lastpagesound">
+                <source src="sound/victory.mp3"></source>
+            </audio>
+
+            <audio id="clicksound">
+                <source src="sound/click.mp3"></source>
+            </audio>
+            <audio id="lock">
+                <source src="sound/lock.mp3"></source>
+            </audio>
+
+            <audio id="correctsound">
+                <source src="sound/correct.mp3"></source>
+            </audio>
+
+            <audio id="wrongsound">
+                <source src="sound/buzzer.mp3"></source>
+            </audio>
+        </div>
+        <div id="mainContainer">
+            <div id="buttonContainer">
+                <div class="q" id="q1"><span>1</span></div>
+                <div class="q" id="q2"><span>2</span></div>
+                <div class="q" id="q3"><span>3</span></div>
+                <div class="q" id="q4"><span>4</span></div>
+                <div class="q" id="q5"><span>5</span></div>
+
+                <div class="q" id="q6"><span>6</span></div>
+                <div class="q" id="q7"><span>7</span></div>
+                <div class="q" id="q8"><span>8</span></div>
+                <div class="q" id="q9"><span>9</span></div>
+                <div class="q" id="q10"><span>10</span></div>
+
+                <div class="q" id="q11"><span>11</span></div>
+                <div class="q" id="q12"><span>12</span></div>
+                <div class="q" id="q13"><span>13</span></div>
+                <div class="q" id="q14"><span>14</span></div>
+                <div class="q" id="q15"><span>15</span></div>
+
+            </div>
+            <div id="questionContainer"></div>
+            <div id="infoBar">
+                <h4>Information</h4>
+                <div id="infoText">
+                    <p>I Angry Quiz ska du svara på 15 olika frågor i kategorierna sport, film & gåtor. Du får bara svara en gång per fråga, svarar du rätt så går du vidare till nästa, men svarar du fel så låser sig frågan för denna omgång.  <br/><strong>Lycka till!</strong><br/>
+                       Av: Johan - Abdi - Victor</p>
+                   </div>
+               </div>
+           </div>
+
+           <div class="playBox"  id="playRestart">
+            <div class="Start">
+                <a id="click2">GO HOME BRO</a>
+            </div>
+        </div>
+    </div>
+    <script src="js/spel.js"></script> 
+    <script src="js/spel.data.js"></script>
+    <script src="js/spel.data.question.js"></script>
+    <script src="js/spel.data.squestion.js"></script>
+    <script src="js/spel.data.fquestion.js"></script>
+    <script src="js/spel.show.js"></script>
+
+
+</body>
+</html
